@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Premium auto detailing and paint care. A concept website demo.">
+<title>VANTA Auto Studio — Concept Website</title>
+<style>
+:root{--bg:#090a0c;--panel:#111317;--muted:#a8abb3;--text:#f4f5f7;--red:#f04444;--line:#292c33;--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.5}a{color:inherit;text-decoration:none}button,a{ -webkit-tap-highlight-color:transparent}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff12}.brand{font-weight:900;letter-spacing:.16em;font-size:1rem}.brand span{color:var(--red)}.links{display:flex;gap:28px;color:#d5d6db;font-size:.9rem}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 18px;background:var(--red);border:1px solid var(--red);border-radius:4px;color:white;font-weight:800;font-size:.82rem;letter-spacing:.04em;transition:.2s}.nav-cta:hover,.btn:hover{transform:translateY(-2px);background:#ff5a5a}.btn.secondary{background:transparent;border-color:#555963}.btn.secondary:hover{border-color:white}.hero{min-height:670px;display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:36px;padding:70px 0 78px}.eyebrow{color:var(--red);font-size:.75rem;font-weight:900;letter-spacing:.2em;text-transform:uppercase}.hero h1{font-size:clamp(3rem,6.6vw,6rem);line-height:.95;letter-spacing:-.065em;margin:22px 0}.hero h1 em{font-style:normal;color:var(--red)}.hero p{max-width:500px;color:var(--muted);font-size:1.08rem}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.trust{display:flex;gap:25px;margin-top:40px;color:#bfc1c7;font-size:.82rem}.trust b{display:block;color:white;font-size:1.15rem}.hero-art{position:relative;min-height:450px;display:flex;align-items:center;justify-content:center;overflow:hidden;border:1px solid #ffffff14;border-radius:8px;background:radial-gradient(ellipse at 55% 43%,#6a1a1d 0,#241114 26%,#111216 58%,#090a0c 78%)}.hero-art:before{content:"";position:absolute;width:410px;height:410px;border:1px solid #f0444440;border-radius:50%;box-shadow:0 0 80px #f0444414,inset 0 0 80px #f0444410}.hero-art:after{content:"VANTA / 01";position:absolute;bottom:20px;right:22px;color:#ffffff65;font-size:.7rem;letter-spacing:.2em}.car{position:relative;width:100%;max-width:560px;filter:drop-shadow(0 25px 24px #000);animation:float 5s ease-in-out infinite}.car svg{width:100%;height:auto}.art-label{position:absolute;top:20px;left:22px;font-size:.7rem;letter-spacing:.16em;color:#d4d5da}.section{padding:86px 0;border-top:1px solid #ffffff12}.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:32px}.section h2{font-size:clamp(2rem,4vw,3.3rem);line-height:1.05;letter-spacing:-.045em;margin:12px 0}.section-head p{max-width:400px;color:var(--muted);margin:0}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{padding:26px;border:1px solid var(--line);background:linear-gradient(145deg,#15171c,#0d0e11);border-radius:6px;transition:.2s}.service:hover{transform:translateY(-4px);border-color:#8d3438}.num{color:var(--red);font-size:.8rem;font-weight:900;letter-spacing:.12em}.service h3{font-size:1.2rem;margin:24px 0 8px}.service p{color:var(--muted);font-size:.94rem;min-height:70px}.price{font-size:1.5rem;font-weight:900;margin-top:22px}.price small{font-size:.75rem;color:var(--muted);font-weight:500}.feature{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.feature-art{min-height:320px;border-radius:6px;border:1px solid #ffffff16;background:linear-gradient(135deg,#281013,#121317 55%,#08090b);display:flex;align-items:center;justify-content:center;padding:28px}.wheel{width:min(250px,70%);aspect-ratio:1;border:12px solid #34363d;border-radius:50%;display:grid;place-items:center;box-shadow:0 0 0 3px #777,inset 0 0 0 7px #141519;background:repeating-conic-gradient(from 0deg,#bfc2c8 0 5deg,#33363d 5deg 11deg);position:relative}.wheel:before{content:"";width:43%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#aeb2b9 0 12%,#1b1d22 14% 28%,#777b83 30% 37%,#16171b 40%);border:5px solid #101115}.feature-copy p{color:var(--muted)}.checks{list-style:none;padding:0;margin:24px 0;display:grid;gap:12px}.checks li:before{content:"✓";color:var(--red);font-weight:900;margin-right:12px}.quote{background:#121317;border-left:3px solid var(--red);padding:26px;font-size:1.1rem;color:#e3e4e8}.contact{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px}.contact p{color:var(--muted)}form{display:grid;gap:12px}input,select,textarea{width:100%;background:#101115;color:white;border:1px solid #33363e;border-radius:4px;padding:14px;font:inherit}textarea{min-height:115px;resize:vertical}input:focus,select:focus,textarea:focus{outline:1px solid var(--red);border-color:var(--red)}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.form-note{font-size:.78rem;color:#9fa2aa}footer{border-top:1px solid #ffffff12;padding:28px 0;color:#9da0a8;font-size:.82rem}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.mobile-menu{display:none}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:800px){.links{display:none}.hero{grid-template-columns:1fr;padding-top:50px;min-height:auto}.hero-art{min-height:340px}.services{grid-template-columns:1fr}.service p{min-height:0}.feature,.contact{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.trust{gap:16px}.wrap{width:min(var(--max),calc(100% - 28px))}.form-row{grid-template-columns:1fr}.nav-cta{padding:11px 12px;font-size:.72rem}}@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="wrap">
+<nav aria-label="Main navigation">
+<a class="brand" href="#top">VANTA<span>.</span> AUTO STUDIO</a>
+<div class="links"><a href="#services">Services</a><a href="#approach">Our approach</a><a href="#contact">Contact</a></div>
+<a class="nav-cta" href="#contact">REQUEST A QUOTE ↗</a>
+</nav>
+</header>
+<main id="top">
+<section class="hero wrap">
+<div>
+<div class="eyebrow">Precision care. Powerful presence.</div>
+<h1>MAKE EVERY<br>DETAIL <em>MATTER.</em></h1>
+<p>Premium detailing and paint care for people who love their cars. A clean finish, careful process, and attention you can see from every angle.</p>
+<div class="actions"><a class="btn" href="#contact">BOOK A DETAIL <span>↗</span></a><a class="btn secondary" href="#services">EXPLORE SERVICES</a></div>
+<div class="trust"><div><b>01 / CARE</b>Careful by design</div><div><b>02 / FINISH</b>Detail-led results</div><div><b>03 / YOU</b>Made around you</div></div>
+</div>
+<div class="hero-art" aria-label="Stylized illustration of a premium black sports coupe">
+<div class="art-label">CONCEPT VEHICLE / BLACK SERIES</div>
+<div class="car">
+<svg viewBox="0 0 650 350" role="img" aria-label="Original stylized black sports coupe illustration">
+<defs><linearGradient id="body" x1="0" y1="0" x2="0.2" y2="1"><stop stop-color="#777b83"/><stop offset=".18" stop-color="#272a30"/><stop offset=".48" stop-color="#08090c"/><stop offset=".72" stop-color="#25282e"/><stop offset="1" stop-color="#050608"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6b747d"/><stop offset=".4" stop-color="#171d25"/><stop offset="1" stop-color="#07090d"/></linearGradient><linearGradient id="light" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ffb9b9"/><stop offset=".5" stop-color="#f04444"/><stop offset="1" stop-color="#75151a"/></linearGradient></defs>
+<ellipse cx="330" cy="280" rx="260" ry="27" fill="#000" opacity=".8"/>
+<path d="M76 229 Q98 198 153 184 L226 137 Q260 99 321 101 L397 105 Q426 110 455 142 L516 169 Q558 184 580 218 L570 247 Q551 263 500 266 L133 265 Q89 259 76 243Z" fill="url(#body)" stroke="#777b83" stroke-width="2"/>
+<path d="M226 139 Q263 110 318 112 L365 114 L393 156 L199 158Z" fill="url(#glass)" stroke="#535861" stroke-width="2"/>
+<path d="M377 115 L395 117 Q423 122 447 151 L473 168 L409 160Z" fill="url(#glass)" stroke="#535861" stroke-width="2"/>
+<path d="M198 161 L473 171" stroke="#858991" stroke-width="2" opacity=".7"/>
+<path d="M97 214 Q140 199 191 201 L191 208 Q142 211 101 229Z" fill="#090a0d" stroke="#555963"/>
+<path d="M489 181 Q530 190 555 214 L525 218 L485 201Z" fill="url(#light)"/>
+<path d="M91 231 Q132 239 178 235" stroke="#aeb2ba" stroke-width="2" opacity=".6"/>
+<path d="M210 174 L203 225 M398 172 L410 226" stroke="#383b42" stroke-width="3"/>
+<path d="M244 221 Q320 230 402 221" stroke="#777b83" stroke-width="1.5" opacity=".5"/>
+<path d="M125 254 Q290 268 504 252" stroke="#f04444" stroke-width="2" opacity=".75"/>
+<circle cx="190" cy="250" r="48" fill="#050608" stroke="#4e5158" stroke-width="5"/><circle cx="190" cy="250" r="32" fill="#202329" stroke="#8c9098" stroke-width="4"/><circle cx="190" cy="250" r="20" fill="#08090c" stroke="#b5b8be" stroke-width="3"/><circle cx="190" cy="250" r="7" fill="#aeb2b9"/>
+<circle cx="478" cy="249" r="48" fill="#050608" stroke="#4e5158" stroke-width="5"/><circle cx="478" cy="249" r="32" fill="#202329" stroke="#8c9098" stroke-width="4"/><circle cx="478" cy="249" r="20" fill="#08090c" stroke="#b5b8be" stroke-width="3"/><circle cx="478" cy="249" r="7" fill="#aeb2b9"/>
+<path d="M282 115 L292 156 M359 115 L380 157" stroke="#8c9098" stroke-width="1.5" opacity=".6"/>
+<path d="M516 226 L559 226" stroke="#f04444" stroke-width="3"/><path d="M77 236 L105 239" stroke="#ffb4b4" stroke-width="4"/>
+</svg>
+</div></div>
+</section>
+<section class="section" id="services"><div class="wrap">
+<div class="section-head"><div><div class="eyebrow">What we do</div><h2>THE FINISH IS<br>IN THE DETAILS.</h2></div><p>Clear service options help customers understand what suits their car. These sample services and prices are placeholders for this demo.</p></div>
+<div class="services">
+<article class="service"><div class="num">01 / ESSENTIAL</div><h3>Exterior Refresh</h3><p>A careful wash, wheel clean, and finish touch-up for a fresh everyday look.</p><div class="price">From $45 <small>/ sample price</small></div></article>
+<article class="service"><div class="num">02 / SIGNATURE</div><h3>Full Detail</h3><p>Interior and exterior attention for a deeper clean and a cabin that feels renewed.</p><div class="price">From $120 <small>/ sample price</small></div></article>
+<article class="service"><div class="num">03 / PROTECTION</div><h3>Gloss & Protection</h3><p>Paint enhancement and a protective finish designed to help your car stand out.</p><div class="price">From $180 <small>/ sample price</small></div></article>
+</div></div></section>
+<section class="section" id="approach"><div class="wrap feature">
+<div class="feature-art"><div class="wheel" aria-label="Abstract alloy wheel illustration"></div></div>
+<div class="feature-copy"><div class="eyebrow">The Vanta standard</div><h2>BUILT AROUND<br>YOUR CAR.</h2><p>Good detailing is more than a quick shine. It starts with understanding the vehicle, choosing the right process, and taking time with the small things.</p><ul class="checks"><li>Careful work, no rushed shortcuts</li><li>Clear options before the job begins</li><li>Service tailored to the vehicle</li><li>Simple booking and direct communication</li></ul><a class="btn secondary" href="#contact">LET'S TALK ↗</a></div>
+</div></section>
+<section class="section" id="contact"><div class="wrap contact">
+<div><div class="eyebrow">Start a conversation</div><h2>YOUR CAR.<br>YOUR STANDARD.</h2><p>Tell us what you drive and what you want done. This demo form opens a prepared message on your device; connect a real business email or booking system before using it with customers.</p><div class="quote">“The difference is in the details.”<br><span style="color:#9fa2aa;font-size:.8rem">VANTA AUTO STUDIO / CONCEPT</span></div></div>
+<form id="bookingForm"><div class="form-row"><input name="name" placeholder="Your name" required aria-label="Your name"><input name="car" placeholder="Car / model" required aria-label="Car model"></div><select name="service" aria-label="Choose a service"><option>Exterior Refresh</option><option>Full Detail</option><option>Gloss & Protection</option><option>Not sure yet</option></select><textarea name="message" placeholder="What does your car need?" aria-label="Message"></textarea><button class="btn" type="submit">PREPARE BOOKING MESSAGE ↗</button><div class="form-note" id="formNote">Demo only — no information is sent or stored.</div></form>
+</div></section>
+</main>
+<footer><div class="wrap foot"><div><strong>VANTA<span style="color:var(--red)">.</span> AUTO STUDIO</strong> — concept website demo</div><div>Replace demo name, prices, contact details, and service claims before selling.</div></div></footer>
+<script>
+document.getElementById('bookingForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const d=new FormData(e.currentTarget);
+ const message=`Hello! I'd like to ask about auto detailing.\\nName: ${d.get('name')}\\nCar: ${d.get('car')}\\nService: ${d.get('service')}\\nDetails: ${d.get('message')||'Not specified'}`;
+ const blob=new Blob([message],{type:'text/plain'});
+ const url=URL.createObjectURL(blob);
+ const a=document.createElement('a');a.href=url;a.download='booking-message.txt';a.click();URL.revokeObjectURL(url);
+ document.getElementById('formNote').textContent='Your message was saved as a text file. No data was sent to a business.';
+});
+</script>
+</body>
+</html>
